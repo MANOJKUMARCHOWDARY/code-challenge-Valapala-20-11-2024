@@ -5,3 +5,24 @@
 body {
     @apply bg-gradient-to-r from-blue-300 via-purple-300 to-pink-300 text-gray-900;
 }
+
+
+/* Ass teh initial setup tailwin dhas been already get applied in teh task 1 only the belwo is just css ref to achive teh same output */
+
+/* I can use the defined classes to achve the grid system to my componenet lsit items */
+
+/* .list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    padding: 16px;
+  }
+  
+  .list-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+  }
+   */
