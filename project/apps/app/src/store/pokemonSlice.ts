@@ -24,7 +24,7 @@ const pokemonSlice = createSlice({
         removePokemon(state, action: PayloadAction<string>) {
             const removed = state.list.find((pokemon) => pokemon.name === action.payload);
             if (removed) {
-                state.recentlyDeleted = [removed, ...state.recentlyDeleted].slice(0, 5); // Keep max 5 recent items
+                state.recentlyDeleted = [removed, ...state.recentlyDeleted].slice(0, 10); // Keep max 10 recent items
                 state.list = state.list.filter((pokemon) => pokemon.name !== action.payload);
             }
         },
